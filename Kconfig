@@ -1,0 +1,7 @@
+mainmenu "BTHIDPROXY"
+
+config BTHP_USB_RETRIES
+	int "# Number of retries for sending a usb report after EAGAIN signal"
+	default 50
+
+source "Kconfig.zephyr"
